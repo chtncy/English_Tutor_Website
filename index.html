@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Language Leap</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
+    <script>
+      (function () {
+        emailjs.init("u_t5D9D5vi3kFIIdV");
+      })();
+    </script>
+  </head>
+  <body>
+    <!-- -------------------- HEADER SECTION -------------------- -->
+
+    <header class="header">
+      <a href="#home" class="logo"><img src="logonew.png" alt="" /></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- -------------------- HOME SECTION -------------------- -->
+
+    <section class="home" id="home">
+      <div class="home-circle-1"></div>
+      <div class="home-circle-2"></div>
+
+      <div class="home-content">
+        <h3>Hi</h3>
+        <h1>I'm <span>Soha</span></h1>
+        <h3 class="text-animation"><span></span></h3>
+        <!-- <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+          necessitatibus error rem hic officia corporis culpa odio iusto, eum
+          quis dolor. Autem vel aperiam a earum, voluptates cum ad
+          exercitationem?
+        </p> -->
+        <div class="social-icons">
+          <a href="#"><i class="bx bxl-facebook-square"></i></a>
+          <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="#"><i class="bx bxl-whatsapp-square"></i></a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="profile_white.png" alt="" />
+      </div>
+    </section>
+
+    <!-- -------------------- ABOUT SECTION -------------------- -->
+
+    <section class="about" id="about">
+      <div class="about-circle"></div>
+
+      <div class="about-img">
+        <img src="profile_white.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3 class="text-animation"><span></span></h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quo
+          eaque officia culpa maiores perspiciatis fugiat odit. Incidunt fuga,
+          laudantium maxime est ipsa nihil animi commodi earum voluptatum eius
+          perspiciatis.
+        </p>
+        <!-- <a href="#" class="btn">Read More</a> -->
+      </div>
+    </section>
+
+    <!-- -------------------- SERVICES SECTION -------------------- -->
+
+    <section class="services" id="services">
+      <h2 class="heading">Services</h2>
+
+      <div class="service-container">
+        <div class="services-box">
+          <i class="bx bx-code-block"></i>
+          <h3>Example</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+            tempora vero ab? Quidem, sed non? Soluta harum quibusdam dolorum
+            debitis animi ea labore, quisquam cumque nisi modi? Enim, culpa
+            accusamus.
+          </p>
+          <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-palette"></i>
+          <h3>Example</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+            tempora vero ab? Quidem, sed non? Soluta harum quibusdam dolorum
+            debitis animi ea labore, quisquam cumque nisi modi? Enim, culpa
+            accusamus.
+          </p>
+          <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-devices"></i>
+          <h3>Example</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+            tempora vero ab? Quidem, sed non? Soluta harum quibusdam dolorum
+            debitis animi ea labore, quisquam cumque nisi modi? Enim, culpa
+            accusamus.
+          </p>
+          <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------- PRICING SECTION -------------------- -->
+
+    <section class="pricing" id="pricing">
+      <h2 class="heading">Pricing</h2>
+      <div class="pricing-container">
+        <!-- Pricing Card 1 -->
+        <div class="pricing-card">
+          <h3>Basic</h3>
+          <p class="price"><span>$19</span>/mo</p>
+          <ul class="features">
+            <li>5 Lessons per Month</li>
+            <li>Email Support</li>
+            <li>Access to Resources</li>
+          </ul>
+          <a href="#" class="btn">Choose Plan</a>
+        </div>
+        <!-- Pricing Card 2 -->
+        <div class="pricing-card">
+          <h3>Standard</h3>
+          <p class="price"><span>$49</span>/mo</p>
+          <ul class="features">
+            <li>15 Lessons per Month</li>
+            <li>Priority Email Support</li>
+            <li>Community Access</li>
+          </ul>
+          <a href="#" class="btn">Choose Plan</a>
+        </div>
+        <!-- Pricing Card 3 -->
+        <div class="pricing-card">
+          <h3>Premium</h3>
+          <p class="price"><span>$99</span>/mo</p>
+          <ul class="features">
+            <li>Unlimited Lessons</li>
+            <li>24/7 Support</li>
+            <li>1:1 Coaching</li>
+          </ul>
+          <a href="#" class="btn">Choose Plan</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------- FAQ SECTION -------------------- -->
+
+    <section class="faq" id="faq">
+      <h2 class="heading">FAQ</h2>
+      <div class="faq-container">
+        <!-- FAQ Item 1 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            What’s included in the Basic plan?
+            <i class="bx bx-chevron-down toggle-icon"></i>
+          </div>
+          <div class="faq-answer">
+            The Basic plan includes up to 5 one‑on‑one lessons per month, email
+            support, and full access to our resource library.
+          </div>
+        </div>
+        <!-- FAQ Item 2 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            Can I change my plan later?
+            <i class="bx bx-chevron-down toggle-icon"></i>
+          </div>
+          <div class="faq-answer">
+            Absolutely—you can upgrade or downgrade at any time from your
+            account dashboard. Changes take effect at your next billing cycle.
+          </div>
+        </div>
+        <!-- FAQ Item 3 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            Do you offer group lessons?
+            <i class="bx bx-chevron-down toggle-icon"></i>
+          </div>
+          <div class="faq-answer">
+            We currently specialize in individual tutoring, but group sessions
+            may be added in the future—stay tuned!
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------- TESTIMONIALS SECTION -------------------- -->
+
+    <section class="testimonials" id="testimonials">
+      <h2 class="heading">What My Students Say</h2>
+      <div class="testimonials-container">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-box">
+          <i class="bx bxs-quote-alt-left quote-icon"></i>
+          <p>
+            “When I first started, I struggled to speak English confidently. But
+            thanks to Soha’s support and the friendly, positive atmosphere she
+            created in class, I improved much faster than I imagined. Her
+            encouragement and engaging teaching style made learning enjoyable
+            and helped me gain confidence in speaking.”
+          </p>
+          <div class="student-info">
+            <!-- <img src="path/to/student1.jpg" alt="Student 1" /> -->
+            <div>
+              <h3>Sephora</h3>
+              <span>Congo</span>
+            </div>
+          </div>
+        </div>
+        <!-- Testimonial 2 -->
+        <div class="testimonial-box">
+          <i class="bx bxs-quote-alt-left quote-icon"></i>
+          <p>
+            “I really admire Soha's creative approach to lessons and the
+            activities she designed to make learning engaging and fun. Her
+            passion for teaching has truly inspired me the way! The way she
+            explained complex topics in a coherent way truly reflected her
+            skills as a teacher. I have learned so much in her class.”
+          </p>
+          <div class="student-info">
+            <!-- <img src="path/to/student2.jpg" alt="Student 2" /> -->
+            <div>
+              <h3>Farah</h3>
+              <span>India</span>
+            </div>
+          </div>
+        </div>
+        <!-- Testimonial 3 -->
+        <div class="testimonial-box">
+          <i class="bx bxs-quote-alt-left quote-icon"></i>
+          <p>
+            “I had the pleasure of learning from one of the most dedicated
+            English instructors. Soha's passion for teaching and her engaging,
+            structured lessons helped me grow in confidence and language skills.
+            She created a respectful, motivating environment. I'm truly grateful
+            and highly recommend her to English learners.”
+          </p>
+          <div class="student-info">
+            <!-- <img src="path/to/student3.jpg" alt="Student 3" /> -->
+            <div>
+              <h3>Vijitha</h3>
+              <span>India</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------- CONTACT SECTION -------------------- -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="#" id="contact-form">
+        <div class="input-box">
+          <input
+            type="text"
+            name="from_name"
+            placeholder="Full Name"
+            required
+          />
+          <input type="email" name="reply_to" placeholder="Email" required />
+        </div>
+
+        <div class="input-box">
+          <input name="phonenumber" type="number" placeholder="Phone Number" />
+          <input name="subject" type="text" placeholder="Subject" />
+        </div>
+
+        <textarea
+          name="message"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <!-- -------------------- FOOTER SECTION -------------------- -->
+
+    <footer class="footer">
+      <div class="social">
+        <a href="#"><i class="bx bxl-facebook-square"></i></a>
+        <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+        <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+        <a href="#"><i class="bx bxl-whatsapp-square"></i></a>
+      </div>
+      <ul class="list">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <p class="copyright">© Soha Bashir | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
