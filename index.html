@@ -316,10 +316,15 @@
       </ul>
       <p class="copyright">© Soha Bashir | All Rights Reserved</p>
     </footer>
-    <script src="https://cdn.emailjs.com/dist/3.2.0/email.min.js"></script>
+     <!-- 1) EmailJS SDK (must be this exact URL) -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    <!-- 2) Initialize with your public key -->
     <script>
       emailjs.init("u_t5D9D5vi3kFIIdV");
     </script>
+
+    <!-- 3) Then your script that calls emailjs.sendForm() -->
     <script src="script.js"></script>
   </body>
 </html>
