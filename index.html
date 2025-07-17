@@ -271,30 +271,29 @@
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me</span></h2>
 
-      <form action="#" id="contact-form">
+      <form id="contact-form">
         <div class="input-box">
           <input
             type="text"
             name="from_name"
-            placeholder="Full Name"
+            placeholder="Your Name"
             required
           />
-          <input type="email" name="reply_to" placeholder="Email" required />
+          <input
+            type="email"
+            name="reply_to"
+            placeholder="Your Email"
+            required
+          />
+          <input type="text" name="subject" placeholder="Subject" />
+          <textarea name="message" placeholder="Your Message"></textarea>
+          <input
+            type="hidden"
+            name="to_email"
+            value="sohabashirdxb@gmail.com"
+          />
+          <button type="submit" class="btn">Send Message</button>
         </div>
-
-        <div class="input-box">
-          <input name="phonenumber" type="number" placeholder="Phone Number" />
-          <input name="subject" type="text" placeholder="Subject" />
-        </div>
-
-        <textarea
-          name="message"
-          id=""
-          cols="30"
-          rows="10"
-          placeholder="Your Message"
-        ></textarea>
-        <button type="submit" class="btn">Send Message</button>
       </form>
     </section>
 
@@ -316,20 +315,17 @@
       </ul>
       <p class="copyright">© Soha Bashir | All Rights Reserved</p>
     </footer>
-    <!-- 1) EmailJS SDK (must be this exact URL) -->
     <script
       type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.browser.min.js"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
     ></script>
-
-    <!-- 2) Initialize with your public key -->
-    <script>
+    <script type="text/javascript">
       (function () {
-        emailjs.init("u_t5D9D5vi3kFIIdV"); // Replace with your actual public key
+        emailjs.init({
+          publicKey: "u_t5D9D5vi3kFIIdV",
+        });
       })();
     </script>
-
-    <!-- 3) Then your script that calls emailjs.sendForm() -->
     <script src="script.js"></script>
   </body>
 </html>
