@@ -324,7 +324,9 @@
 
     <!-- 2) Initialize with your public key -->
     <script>
-      emailjs.init("u_t5D9D5vi3kFIIdV");
+      (function () {
+        emailjs.init("u_t5D9D5vi3kFIIdV"); // Replace with your actual public key
+      })();
     </script>
 
     <!-- 3) Then your script that calls emailjs.sendForm() -->
